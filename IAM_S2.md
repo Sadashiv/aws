@@ -119,17 +119,17 @@ own cloud to aws
 
 Cloud front is CDN
 - CloudFront Distributions
-i- Web and RTMP
+- Web and RTMP
 
 Edge location - This is location where content will be cached. this is seperate to an AWS Region/AZ
-Origin - This is the origin of all the files that CDN will dsitribute. This can be either an S3 bucket, an EC2 instance,
+Origin - This is the origin of all the files that CDN will distribute. This can be either an S3 bucket, an EC2 instance,
          an Elastic Load Balancer or Route53
-Dsitribution - This is the name given the CDN whic consists of collection of Edge locations
-Web Dsitribution - Typically used for websites
+Distribution - This is the name given to the CDN which consists of collection of Edge locations
+Web Distribution - Typically used for websites
 RTMP - used for media streaming
 objects are cached for the life of the TTL(Time To Live)
 
-Cloud Front Signe URL's and Cookies
+Cloud Front Signed URL's and Cookies
 
 - Use signed URLs/Cookies when you want to secure content so that only the people you authorize are able to access it.
 - Signed URL is for individual files 1 file = 1 URL
